@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(240, 240, 245);
+    background-image: url(back.jpg);
+    background-size: cover;
+  }
+ .main {
+   background-image: url(white.jpeg);
+ }
+  
+  h1 {
+    margin-left: 370px;
+    width: 500px;
+    background-color: floralwhite;
+    text-align: center;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  table {
+    border: 1px solid;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.825);
+  }
+  
+  .face {
+    display: inline-flex;
+  }
+  
+  .userInput {
+    display: block;
+    width: 500px;
+    margin-left: 370px;
+  }
+  
+  .userInput p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .userInput p,
+  .userInput button {
+    display: inline-flex;
+  }
+  
+  .explain {
+    display: block;
+    width: 280px;
+    padding: 20px;
+  }
+  
+  .explain p {
+    font-style: italic;
+  }
+  
+  #inputTable input {
+    width: 277px;
+  }
+  #inputTable {
+    justify-content: center;
+  }
+  
+  
+  .displayTables {
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .unsorted {
+    width: 520px;
+    padding-right: 20px;
+    margin-left: 450px;
+  }
+  
+  .unsorted p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .unsorted p,
+  .unsorted button {
+    display: inline-flex;
+  }
+  
+  .displayTables td {
+    font-stretch: semi-condensed;
+    font-size: 15px;
+    
+  }
+  
+  .ranked {
+    width: 500px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 450px;
+   
+  }
+  
+  .ranked p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  
+  
+  #taskDscrptn {
+    width: 300px;
+  }
+  
+  #userInfoSave {
+    background-color: rgb(46, 224, 46);
+    font-weight: bold;
+    font-size: 12px;
+    float: center;
+    margin-left: 280px;
+    color: black;
+  }
+  
+  #deletion {
+    background-color: rgb(203, 25, 25);
+    font-weight: bold;
+    font-size: 12px;
+    float: center;
+    margin-left:155px;
+    color: black;
+  }
+  
+  #updateTime {
+    background-color: rgb(255, 255, 153);
+    font-weight: bold;
+    font-size: 12px;
+    float: center;
+    margin-left:260px;
+    color: black;
+  }
+
+  th{
+    color: white;
+  }
+  td{
+    color: white;
+  }
+  .btn-default{
+    color: white;
+  }
+
+  select{
+    background-color: brown;
+  }
+
+  .btn{
+    color: white;
+
+  }
+
+  option{
+    color: white;
+  }
